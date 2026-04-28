@@ -4,9 +4,11 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Security.Claims;
 using System.Text;
-using FacturacionAPI.Data;
-using FacturacionAPI.Repositories;
-using FacturacionAPI.Services;
+
+
+using API.Data;
+using API.Repositories;
+using API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
