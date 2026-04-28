@@ -6,9 +6,6 @@ using System.Security.Claims;
 using System.Text;
 
 
-using API.Data;
-using API.Repositories;
-using API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
